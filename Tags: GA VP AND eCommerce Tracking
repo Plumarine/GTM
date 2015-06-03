@@ -1,0 +1,22 @@
+//Custom HTML Tag
+<script>
+_gaq.push(['_setAccount', '{{UA Property}}']);
+_gaq.push(['_trackPageview','{{GA VP Confirmation}}']);
+_gaq.push(['_set', 'currencyCode', {{JS Currency}}]); // Set transaction currency
+_gaq.push(['_addTrans',
+   '{{JS Order ID}}',           // transaction ID - required
+   'Easy2book',               // affiliation or store name
+   '{{JS Revenue Percentage}}',                       // total - required
+   '0',                       // tax
+   '0'                        // shipping 
+]);
+_gaq.push(['_addItem',
+   '{{JS Order ID}}',                 // transaction ID - necessary to associate item with transaction
+   '{{JS Sku Combined}}',           // SKU/code - required
+   '{{JS Accomodation Name}}',      // product name
+   'hotel easy2book',               // category or variation
+   '2',                             // unit price - required
+   '{{JS Number of transactions}}'  // quantity - required
+]);
+_gaq.push(['_trackTrans']);
+</script>
