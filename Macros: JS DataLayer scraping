@@ -4,3 +4,10 @@ function () {
     window.param = "product_name="+product_name;   
     return product_name;
 }
+
+//Language
+function () {
+    var lang = ETB.analytics.params["lang"];
+    window.param = "lang="+lang;   
+    return lang;
+}
