@@ -1,0 +1,13 @@
+/Price
+function () {
+    var price = $("totalPriceBox.price").text().split('€')[1].substr(0);
+    window.param = "price="+price;   
+    return price;
+}
+
+//Order ID
+function () {
+    var orderID_scrap = document.getElementsByClassName("resNumber")[0].innerHTML.slice(13,document.getElementsByClassName("resNumber")[0].innerHTML.length);
+    window.param = "order ID="+orderID_scrap;   
+    return orderID_scrap;
+}
