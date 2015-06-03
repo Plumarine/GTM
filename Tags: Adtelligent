@@ -1,0 +1,75 @@
+//Custom HTML Tag
+
+<script type="text/javascript">(function() {
+
+    window._paq = window._paq || [];
+
+    window.adtTracking = window.adtTracking || {};
+
+    window.adtTracking.getDomain = function() {
+
+    var domain, i, p, s;
+
+    i = 0;
+
+    domain = document.domain;
+
+    p = domain.split('.');
+
+    s = '_gd' + (new Date()).getTime();
+
+    while (i < (p.length - 1) && document.cookie.indexOf(s + '=' + s) === -1) {
+
+        domain = p.slice(-1 - (++i)).join('.');
+
+        document.cookie = s + "=" + s + ";domain=" + domain + ";";
+
+    }
+
+    document.cookie = s + "=;expires=Thu, 01 Jan 1970 00:00:01 GMT;domain=" + domain + ";";
+
+    return domain;
+
+    };
+
+    var u = "https://liligo-tracking.adtelligence.de/";
+
+    window._paq.push(['setTrackerUrl', u + 'piwik.php']);
+
+    window._paq.push(['setSiteId',2 ]);
+
+    window._paq.push(['setCookieDomain', '*.' + window.adtTracking.getDomain() + (window.location.port ? ':' + window.location.port : '')]);
+
+    window._paq.push(['setCookieNamePrefix', '_adt_pk_']);
+
+    window._paq.push(['storeCustomVariablesInCookie', true]);
+
+    window._paq.push([
+
+    function() {
+
+        var customVariable = this.getCustomVariable(1);
+
+        if (customVariable && customVariable[0] == "convert") {
+
+    		window._paq.push(['trackGoal', 36]);
+
+        };
+
+    }]);
+
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+
+    g.type = 'text/javascript';
+
+    g.async = true;
+
+    g.defer = true;
+
+    g.src = 'https://cdn.adtelligence.de/adt/epc/analytics-1.0.js';
+
+    s.parentNode.insertBefore(g, s);
+
+})();
+
+</script>
