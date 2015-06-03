@@ -1,0 +1,288 @@
+// GA VP Home
+function () {
+    if(window.location.href.indexOf("/pl/") > -1) {
+       var vp = "/L_en/C_GB/hotels/";
+    }
+    else if(window.location.href.indexOf("/sv/") > -1) {
+       var vp = "/L_en/C_GB/hotels/";
+    }
+    else if(window.location.href.indexOf("/da/") > -1) {
+       var vp = "/L_en/C_GB/hotels/";
+    }
+    else if(window.location.href.indexOf("/no/") > -1) {
+       var vp = "/L_en/C_GB/hotels/";
+    }
+    else if(window.location.href.indexOf("/de/") > -1) {
+       var vp = "/L_de/C_DE/hotels/";
+    }
+    else if(window.location.href.indexOf("/es/") > -1) {
+       var vp = "/L_es/C_ES/hotels/";
+    }
+    else if(window.location.href.indexOf("/fr/") > -1) {
+       var vp = "/L_fr/C_FR/hotels/";
+    }
+    else if(window.location.href.indexOf("/it/") > -1) {
+       var vp = "/L_it/C_IT/hotels/";
+    }
+    else if(window.location.href.indexOf("/nl/") > -1) {
+       var vp = "/L_nl/C_NL/hotels/";
+    }
+    else if(window.location.href.indexOf("/pt/") > -1) {
+       var vp = "/L_pt/C_PT/hotels/";
+    }
+    else if(window.location.href.indexOf("/ru/") > -1) {
+       var vp = "/L_ru/C_RU/hotels/";
+    }
+    else {
+       var vp = "/L_en/C_GB/hotels/";
+    }
+    return vp;
+}
+
+//GA VP CitySelectionResults
+function () {
+    if(window.location.href.indexOf("/pl/") > -1) {
+       var vp = "/L_en/C_GB/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/sv/") > -1) {
+       var vp = "/L_en/C_GB/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/da/") > -1) {
+       var vp = "/L_en/C_GB/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/no/") > -1) {
+       var vp = "/L_en/C_GB/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/de/") > -1) {
+       var vp = "/L_de/C_DE/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/es/") > -1) {
+       var vp = "/L_es/C_ES/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/fr/") > -1) {
+       var vp = "/L_fr/C_FR/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/it/") > -1) {
+       var vp = "/L_it/C_IT/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/nl/") > -1) {
+       var vp = "/L_nl/C_NL/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/pt/") > -1) {
+       var vp = "/L_pt/C_PT/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/ru/") > -1) {
+       var vp = "/L_ru/C_RU/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    else {
+       var vp = "/L_en/C_GB/hotels/city_selection_results" + document.location.pathname + document.location.search;
+    }
+    return vp;
+}
+
+
+//GA VP SearchResults
+function () {
+    if(window.location.href.indexOf("lang=pl") > -1) {
+       var vp = "/L_en/C_GB/hotels/search_results/";
+    }
+    else if(window.location.href.indexOf("lang=sv") > -1) {
+       var vp = "/L_en/C_GB/hotels/search_results/";
+    }
+    else if(window.location.href.indexOf("lang=da") > -1) {
+       var vp = "/L_en/C_GB/hotels/search_results/";
+    }
+    else if(window.location.href.indexOf("lang=no") > -1) {
+       var vp = "/L_en/C_GB/hotels/search_results/";
+    }
+    else if(window.location.href.indexOf("lang=de") > -1) {
+       var vp = "/L_de/C_DE/hotels/search_results/";
+    }
+    else if(window.location.href.indexOf("lang=es") > -1) {
+       var vp = "/L_es/C_ES/hotels/search_results/";
+    }
+    else if(window.location.href.indexOf("lang=fr") > -1) {
+       var vp = "/L_fr/C_FR/hotels/search_results/";
+    }
+    else if(window.location.href.indexOf("lang=it") > -1) {
+       var vp = "/L_it/C_IT/hotels/search_results/";
+    }
+    else if(window.location.href.indexOf("lang=nl") > -1) {
+       var vp = "/L_nl/C_NL/hotels/search_results/";
+    }
+    else if(window.location.href.indexOf("lang=pt") > -1) {
+       var vp = "/L_pt/C_PT/hotels/search_results/";
+    }
+    else if(window.location.href.indexOf("lang=ru") > -1) {
+       var vp = "/L_ru/C_RU/hotels/search_results/";
+    }
+    else if(window.location.href.indexOf("lang=en") > -1) {
+       var vp = "/L_en/C_GB/hotels/search_results/";
+    }
+    return vp;
+}
+
+//GA VP RoomSelection
+function () {
+    if(window.location.href.indexOf("/pl/") > -1) {
+       var vp = "/L_en/C_GB/hotels/search_results/room-selection/";
+    }
+    else if(window.location.href.indexOf("/sv/") > -1) {
+       var vp = "/L_en/C_GB/hotels/search_results/room-selection/";
+    }
+    else if(window.location.href.indexOf("/da/") > -1) {
+       var vp = "/L_en/C_GB/hotels/search_results/room-selection/";
+    }
+    else if(window.location.href.indexOf("/no/") > -1) {
+       var vp = "/L_en/C_GB/hotels/search_results/room-selection/";
+    }
+    else if(window.location.href.indexOf("/de/") > -1) {
+       var vp = "/L_de/C_DE/hotels/search_results/room-selection/";
+    }
+    else if(window.location.href.indexOf("/es/") > -1) {
+       var vp = "/L_es/C_ES/hotels/search_results/room-selection/";
+    }
+    else if(window.location.href.indexOf("/fr/") > -1) {
+       var vp = "/L_fr/C_FR/hotels/search_results/room-selection/";
+    }
+    else if(window.location.href.indexOf("/it/") > -1) {
+       var vp = "/L_it/C_IT/hotels/search_results/room-selection/";
+    }
+    else if(window.location.href.indexOf("/nl/") > -1) {
+       var vp = "/L_nl/C_NL/hotels/search_results/room-selection/";
+    }
+    else if(window.location.href.indexOf("/pt/") > -1) {
+       var vp = "/L_pt/C_PT/hotels/search_results/room-selection/";
+    }
+    else if(window.location.href.indexOf("/ru/") > -1) {
+       var vp = "/L_ru/C_RU/hotels/search_results/room-selection/";
+    }
+    else if(window.location.href.indexOf("/en/") > -1) {
+       var vp = "/L_en/C_GB/hotels/search_results/room-selection/";
+    }
+    return vp;
+}
+
+//GA VP Payment
+function () {
+    if(window.location.href.indexOf("lang=pl") > -1) {
+       var vp = "/L_en/C_GB/hotels/payment/";
+    }
+    else if(window.location.href.indexOf("lang=sv") > -1) {
+       var vp = "/L_en/C_GB/hotels/payment/";
+    }
+    else if(window.location.href.indexOf("lang=da") > -1) {
+       var vp = "/L_en/C_GB/hotels/payment/";
+    }
+    else if(window.location.href.indexOf("lang=no") > -1) {
+       var vp = "/L_en/C_GB/hotels/payment/";
+    }
+    else if(window.location.href.indexOf("lang=de") > -1) {
+       var vp = "/L_de/C_DE/hotels/payment/";
+    }
+    else if(window.location.href.indexOf("lang=es") > -1) {
+       var vp = "/L_es/C_ES/hotels/payment/";
+    }
+    else if(window.location.href.indexOf("lang=fr") > -1) {
+       var vp = "/L_fr/C_FR/hotels/payment/";
+    }
+    else if(window.location.href.indexOf("lang=it") > -1) {
+       var vp = "/L_it/C_IT/hotels/payment/";
+    }
+    else if(window.location.href.indexOf("lang=nl") > -1) {
+       var vp = "/L_nl/C_NL/hotels/payment/";
+    }
+    else if(window.location.href.indexOf("lang=pt") > -1) {
+       var vp = "/L_pt/C_PT/hotels/payment/";
+    }
+    else if(window.location.href.indexOf("lang=ru") > -1) {
+       var vp = "/L_ru/C_RU/hotels/payment/";
+    }
+    else if(window.location.href.indexOf("lang=en") > -1) {
+       var vp = "/L_en/C_GB/hotels/payment/";
+    }
+    return vp;
+}
+
+
+//GA VP Confirmation
+function () {
+    if(window.location.href.indexOf("lang=pl") > -1) {
+       var vp = "/L_en/C_GB/hotels/confirmation/";
+    }
+    else if(window.location.href.indexOf("lang=sv") > -1) {
+       var vp = "/L_en/C_GB/hotels/confirmation/";
+    }
+    else if(window.location.href.indexOf("lang=da") > -1) {
+       var vp = "/L_en/C_GB/hotels/confirmation/";
+    }
+    else if(window.location.href.indexOf("lang=no") > -1) {
+       var vp = "/L_en/C_GB/hotels/confirmation/";
+    }
+    else if(window.location.href.indexOf("lang=de") > -1) {
+       var vp = "/L_de/C_DE/hotels/confirmation/";
+    }
+    else if(window.location.href.indexOf("lang=es") > -1) {
+       var vp = "/L_es/C_ES/hotels/confirmation/";
+    }
+    else if(window.location.href.indexOf("lang=fr") > -1) {
+       var vp = "/L_fr/C_FR/hotels/confirmation/";
+    }
+    else if(window.location.href.indexOf("lang=it") > -1) {
+       var vp = "/L_it/C_IT/hotels/confirmation/";
+    }
+    else if(window.location.href.indexOf("lang=nl") > -1) {
+       var vp = "/L_nl/C_NL/hotels/confirmation/";
+    }
+    else if(window.location.href.indexOf("lang=pt") > -1) {
+       var vp = "/L_pt/C_PT/hotels/confirmation/";
+    }
+    else if(window.location.href.indexOf("lang=ru") > -1) {
+       var vp = "/L_ru/C_RU/hotels/confirmation/";
+    }
+    else if(window.location.href.indexOf("lang=en") > -1) {
+       var vp = "/L_en/C_GB/hotels/confirmation/";
+    }
+    return vp;
+}
+
+//GA VP Rest
+function () {
+    if(window.location.href.indexOf("/pl/") > -1) {
+       var vp = "/L_en/C_GB/hotels" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/sv/") > -1) {
+       var vp = "/L_en/C_GB/hotels" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/da/") > -1) {
+       var vp = "/L_en/C_GB/hotels" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/no/") > -1) {
+       var vp = "/L_en/C_GB/hotels" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/de/") > -1) {
+       var vp = "/L_de/C_DE/hotels" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/es/") > -1) {
+       var vp = "/L_es/C_ES/hotels" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/fr/") > -1) {
+       var vp = "/L_fr/C_FR/hotels" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/it/") > -1) {
+       var vp = "/L_it/C_IT/hotels" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/nl/") > -1) {
+       var vp = "/L_nl/C_NL/hotels" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/pt/") > -1) {
+       var vp = "/L_pt/C_PT/hotels" + document.location.pathname + document.location.search;
+    }
+    else if(window.location.href.indexOf("/ru/") > -1) {
+       var vp = "/L_ru/C_RU/hotels" + document.location.pathname + document.location.search;
+    }
+    else {
+       var vp = "/L_en/C_GB/hotels" + document.location.pathname + document.location.search;
+    }
+    return vp;
+}
