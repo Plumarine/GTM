@@ -1,0 +1,2 @@
+//Custom HTML Tag
+<img src="http://tbs.tradedoubler.com/report?organization=845357&event=327026&orderNumber={{JS Order ID}}&orderValue={{JS Revenue Percentage}}&currency={{JS Currency}}" width="1" height="1" border="0" />
