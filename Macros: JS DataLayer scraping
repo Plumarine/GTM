@@ -1,0 +1,6 @@
+//Accomodation name
+function () {
+    var product_name = ETB.analytics.params["accommodation_name"];
+    window.param = "product_name="+product_name;   
+    return product_name;
+}
