@@ -11,3 +11,11 @@ function () {
     window.param = "lang="+lang;   
     return lang;
 }
+
+//Revenue percentage
+function () {
+    var pteur = ETB.analytics.params["pteur"];
+    var price = pteur*10/1000
+    window.param = "price="+price;   
+    return price;
+}
